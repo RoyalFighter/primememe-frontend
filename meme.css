@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
 .txt
 {
     text-align: center;
@@ -33,7 +35,39 @@ ul>li{
 }
 .top{
     display: flex;
- justify-content: space-between
+ justify-content: space-between;
     /* justify-content:space-evenly; */
-    gap: 80px;
+    gap:80px;
 }
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: white;
+    color:black;
+    /* padding: 10px; */
+    box-shadow:#f2f2f2;
+  }
+  
+  .navbar img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+  }
+  
+  .nav-links a {
+    color: black;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Inter';
+    /* border-left:1px solid black; */
+    height:100%;
+  
+
+  }
